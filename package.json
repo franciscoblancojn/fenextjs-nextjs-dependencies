@@ -1,6 +1,6 @@
 {
   "name": "fenextjs-nextjs-dependencies",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "remove-node-module": "rm -r node_modules",
     "remove": "npm run remove-node-module && npm run remove-bun-lockb",
     "update-package-storybook": "ncu -u '/.*storybook.*$/'",
-    "update-package": "ncu -u '/^fenextjs.*$/' country-state-city-nextjs uselocalstoragenextjs",
+    "update-package": "ncu -u '/fenextjs.*$/' country-state-city-nextjs uselocalstoragenextjs",
     "update": "npm run update-package && npm run remove && npm run bun-i && npm run flb",
     "u": "npm run update"
   },
